@@ -4,7 +4,7 @@
 std::string problemSolution4(const std::string &macAddress) {
     // write your code here
     int num = 0;
-    string screen;
+    std::string screen;
     if (macAddress[0] == 'F' and macAddress[1] == 'F' ){
         screen =  "Broadcast";
     }else {
