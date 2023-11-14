@@ -15,12 +15,12 @@ std::string problemSolution3(float height, char S) {
         if (height<1.60){
             Result = "Short";
         }else if (height>=1.60 && height<1.75){
-            Result = "Normal"
+            Result = "Normal";
         }else if (height>=1.75){
-            Result = "Tall"
+            Result = "Tall";
         }
     }
-    return Result
+    return Result;
 
     // use return to return your result
     // make use of control flow statements
